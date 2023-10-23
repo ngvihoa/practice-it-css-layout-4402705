@@ -1,38 +1,36 @@
 .container {
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-start;
+  flex-direction: column;
   height: 100vh;
+  justify-content: space-between;
+  /* gap: 10px; */
   flex-wrap: wrap;
 }
+
 * {
   height: 500px;
 }
 
 .item-1 {
-  border: 1px solid green;
+  background-color: red;
 }
 
 .item-2 {
-  border: 1px solid blue;
+  background-color: yellow;
 }
+
 .item-3 {
-  border: 1px solid yellow;
+  background-color: orange;
 }
+
 .item-4 {
-  border: 1px solid red;
+  background-color: green;
 }
 
 .item-5 {
-  border: 1px solid pink;
-}
-.item-6 {
-  border: 1px solid purple;
+  background-color: blue;
 }
 
-.item-5 {
-    border: 1px solid pink;
-}
 .item-6 {
-    border: 1px solid purple;
+  background-color: purple;
 }
